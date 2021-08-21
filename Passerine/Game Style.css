@@ -1,0 +1,98 @@
+@font-face 
+{
+    font-family: 'Apple Chancery';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apple Chancery'), url('Apple Chancery.woff') format('woff');
+}
+
+h1
+{
+    color: rgb(71, 180, 98);
+    /* font-size: 80px; */
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 1.25;
+    font-size: 90px;
+}
+
+.Info
+{
+    margin-left: 50px;
+    font-size: 55px;
+    font-family: 'Apple Chancery', cursive;
+}
+
+.GamePic
+{
+    width: 80%;
+    height: 80%;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 65px;
+        line-height: 1.125;
+    }
+
+    .Info {
+        font-size: 40px;
+        line-height: 1.125;
+    }
+}
+  
+@media (max-width: 600px) {
+    h1 {
+        font-size: 44px;
+        line-height: 1.05;
+    }
+
+    .Info {
+        font-size: 30px;
+        line-height: 1.05;
+    }
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 30px;
+        line-height: 0.8;
+    }
+
+    .Info {
+        font-size: 23px;
+        line-height: 0.8;
+    }
+}
+
+body
+{
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    background-image: url("https://news.umanitoba.ca/wp-content/uploads/2014/12/Wallpapers-books.jpg");
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+a, a:visited
+{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color:rgb(250, 211, 82);
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgb(233, 196, 73);
+    text-decoration: none;
+}
+
+a:active
+{
+    color: rgb(214, 179, 61);
+    text-decoration: none;
+}

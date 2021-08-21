@@ -1,0 +1,101 @@
+@font-face 
+{
+    font-family: 'Apple Chancery';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Apple Chancery'), url('Apple Chancery.woff') format('woff');
+}
+
+h1
+{
+    color: rgb(250, 211, 82);
+    font-size: 110px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Apple Chancery', cursive;
+}
+
+h2
+{
+    color: rgb(245, 209, 109);
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'Krona One', sans-serif;
+}
+
+h3
+{
+    color: rgb(245, 219, 136);
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-family: 'Passero One', cursive;
+}
+
+body
+{
+    text-align: center;
+    background-image: url("https://pbs.twimg.com/media/E0F7Dz_WQAMoa_d.jpg");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:rgb(19, 19, 19);
+    font-family: 'Krona One', cursive;
+}
+
+.backgroundfilter
+{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(20, 20, 20, 0.534);
+    z-index: -100;
+}
+
+a, a:visited
+{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgb(84, 127, 206);
+    text-decoration: none;
+}
+
+a:active
+{
+    color: rgb(65, 102, 172);
+    text-decoration: none;
+}
+
+.Wattframe
+{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 500px) {
+    h1{
+        font-size: 60px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    a{
+        font-size: 15px;
+    }
+}
